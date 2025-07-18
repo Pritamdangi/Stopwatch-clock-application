@@ -1,4 +1,4 @@
-# Weather-forecast-application-
+# Stopwatch-clock-application
 Stopwatch & Clock Application (IST)
 
 A simple C++ console application that functions both as a stopwatch and a real-time clock. The current time is displayed in Indian Standard Time (IST), and the stopwatch allows users to start, stop, and reset the elapsed time.
