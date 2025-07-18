@@ -5,12 +5,11 @@
 using namespace std;
 using namespace std::chrono;
 
-// Function to show current time in IST (UTC+5:30)
 void showIndianTime() {
     time_t now = time(0);
-    now += 19800; // Add 5 hours 30 minutes = 19800 seconds
+    now += 19800; 
 
-    tm *ltm = gmtime(&now); // Use gmtime instead of localtime
+    tm *ltm = gmtime(&now); 
 
     cout << "Indian Standard Time (IST): ";
     cout << (ltm->tm_hour < 10 ? "0" : "") << ltm->tm_hour << ":"
